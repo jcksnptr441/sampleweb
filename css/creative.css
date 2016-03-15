@@ -202,7 +202,7 @@ header {
 
     text-align: center;
     color: #fff;
-    background-image: url(../img/bg-image2.png);
+    background-image: url(../img/bg-02.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -528,12 +528,14 @@ body {
   background-size: cover;
 }
 
-.mybgimg{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
-background: #d2ff52; /* Old browsers */
-background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
-
-
+.mybgimg{
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/bg-02.png);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
