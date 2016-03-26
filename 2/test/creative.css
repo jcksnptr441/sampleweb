@@ -66,7 +66,7 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #B3DD7C;
+    background-color: #222;
 }
 
 .text-faded {
@@ -75,28 +75,20 @@ p {
 
 section {
 
- padding: 10% 0 10% 0;
+ padding: 5% 0 5% 0;
   text-align: center;
+  color: #fff;
   background-color: #b3dd7c;
+
+
 }
-
-section {
-
-
-  text-align: center;
-  background-color: #b3dd7c;
-}
-
-
-
-
 
 aside {
     padding: 50px 0;
 }
 
 .no-padding {
-    padding: 10% 0 0 0;
+    padding: 0;
 }
 
 .navbar-default {
@@ -104,10 +96,7 @@ aside {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
-    -
-
-
-    oz-transition: all .35s;
+    -moz-transition: all .35s;
     transition: all .35s;
 }
 
@@ -288,12 +277,7 @@ header .header-content .header-content-inner p {
 
 .service-box {
     margin: 50px auto 0;
-
-    border: 15px;
-    background-color: #8BC34A;
-    visibility: hidden;
-    padding: 60px 10px 60px 10px;
-
+    max-width: 400px;
 }
 
 @media(min-width:992px) {
@@ -305,26 +289,6 @@ header .header-content .header-content-inner p {
 .service-box p {
     margin-bottom: 0;
 }
-
-
-.service-box1 {
-
-    background-color: #8BC34A;
-    visibility: hidden;
-
-
-}
-
-@media(min-width:992px) {
-    .service-box1 {
-
-    }
-}
-
-.service-box1 p {
-    margin-bottom: 0;
-}
-
 
 .portfolio-box {
     display: block;
@@ -558,7 +522,11 @@ body {
 }
 
 #4arms{
-  background-color: #B3E5FC;
+  background-image: url(../img/bg-image.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  text-align: center;
+  background-size: cover;
 }
 
 .bgimg{
@@ -581,7 +549,6 @@ body {
   -o-background-size: cover;
 
 }
-
 
 
 .conbox{
@@ -709,29 +676,5 @@ body {  text-align: center; }
 
 
 .4logo{
-background-image: url(../img/logo.png);
+background-image: url(../img/logo.png); 
 }
-
-
-.logoimg{
-  padding-top: 5px;
-  width: 90%;
-  height: 90%;
-
-}
-
-@media only screen and (max-width: 500px) {
-    .logoimg {
-      padding-top: 8px;
-      padding-left: 8px;
-      width: 37%;
-      height: 37%
-    }
-
-.text-left{
-text-align: left;
-    }
-
-    .box4{
-      visibility: hidden;
-    }
