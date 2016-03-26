@@ -91,7 +91,7 @@ slideUp
 	animation-timing-function: ease;
 	-webkit-animation-timing-function: ease;
 
-	visibility: visible;
+	visibility: visible !important;
 }
 
 @keyframes slideUp {
