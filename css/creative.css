@@ -78,9 +78,18 @@ section {
  padding: 10% 0 10% 0;
   text-align: center;
   background-color: #b3dd7c;
-
-
 }
+
+section {
+
+
+  text-align: center;
+  background-color: #b3dd7c;
+}
+
+
+
+
 
 aside {
     padding: 50px 0;
@@ -296,6 +305,26 @@ header .header-content .header-content-inner p {
 .service-box p {
     margin-bottom: 0;
 }
+
+
+.service-box1 {
+
+    background-color: #8BC34A;
+    visibility: hidden;
+
+
+}
+
+@media(min-width:992px) {
+    .service-box1 {
+
+    }
+}
+
+.service-box1 p {
+    margin-bottom: 0;
+}
+
 
 .portfolio-box {
     display: block;
@@ -529,11 +558,7 @@ body {
 }
 
 #4arms{
-  background-image: url(../img/bg-image.png);
-  background-repeat: no-repeat;
-  height: 100% auto;;
-  text-align: center;
-  background-size: cover;
+  background-color: #B3E5FC;
 }
 
 .bgimg{
