@@ -71,6 +71,7 @@ p {
 .bg-dark {
     color: #fff;
     background-color: #B3DD7C;
+
 }
 
 .text-faded {
@@ -78,9 +79,24 @@ p {
 }
 
 .sec1{
-  padding: 10% 15px 10% 15px;
+  padding: 10% 0 10% 0;
+}
+.sec2{
+  padding: 0;
 }
 
+.sec3{
+  padding: 0;
+}
+.sec4{
+  padding: 0;
+}
+.sec5{
+  padding: 0;
+}
+.sec6{
+  padding: 0;
+}
 section {
 
   text-align: center;
@@ -99,11 +115,14 @@ aside {
 }
 
 .navbar-footer{
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  font-weight:lighter;
   text-align: right;
   vertical-align: middle;
   height: 100%;
-  padding: 1% 30px 1% 0;
-  background-color: #B3E5FC;
+  padding: 1% 95px 1% 0;
+
 }
 .navbar-default {
     border-color: rgba(34,34,34,.05);
@@ -123,11 +142,13 @@ aside {
     font-weight: 700;
     font-size: x-large;
     color: #29b6f6;
+
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
+
 }
 
 .navbar-default .nav > li>a,
@@ -158,10 +179,16 @@ aside {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
+
+    }
+    .navbar-header{
+      padding-right: 15px;
+      padding-left: 15px;
     }
 
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
+
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -295,7 +322,7 @@ header .header-content .header-content-inner p {
 .service-box {
   background-color: #8BC34A;
   visibility: hidden;
-  padding: 20% 2% 20% 2%;
+  padding: 25% 5% 25% 5%;
 
 }
 
@@ -398,7 +425,7 @@ header .header-content .header-content-inner p {
 }
 
 .call-to-action h2 {
-    margin: 0 auto 20px;
+
 }
 
 .text-primary {
@@ -749,8 +776,7 @@ container-fulid{
 }
 
 
-@media (min-width: 768px)
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: 26px;
+    margin-right: 500px;
     margin-left: 15px;
 }
