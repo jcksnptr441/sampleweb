@@ -103,12 +103,13 @@ aside {
 }
 .navbar-footer{
   font-family: 'Pacifico', cursive;
-  font-size: 22px;
+  font-size: 24px;
   font-weight:lighter;
   text-align: right;
   vertical-align: middle;
   height: 100%;
-  padding: 1% 95px 1% 0;
+  padding: 1% 75px 1% 0;
+  color: blue;
 
 }
 
