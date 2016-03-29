@@ -94,7 +94,10 @@ section {
 aside {
     padding: 25px 0;
 }
-
+.sectionspace{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
 .no-padding {
     padding: 0 0 0 0;
 }
