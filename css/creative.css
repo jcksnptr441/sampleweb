@@ -75,7 +75,7 @@ p {
 
 section {
 
- padding: 10% 0 10% 0;
+ padding: 4% 0 4% 0;
   text-align: center;
   background-color: #b3dd7c;
 }
@@ -97,6 +97,16 @@ aside {
 
 .no-padding {
     padding: 10% 0 0 0;
+}
+.navbar-footer{
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  font-weight:lighter;
+  text-align: right;
+  vertical-align: middle;
+  height: 100%;
+  padding: 1% 95px 1% 0;
+
 }
 
 .navbar-default {
