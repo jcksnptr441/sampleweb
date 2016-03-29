@@ -350,7 +350,16 @@ header .header-content .header-content-inner p {
 
     background-color: #B3E5FC;
     visibility: hidden;
-    padding: 5% 0 18% 0;
+    padding: 15% 0 18% 0;
+
+
+}
+
+.service-box2 {
+
+    background-color: white;
+    visibility: hidden;
+    padding: 15% 0 18% 0;
 
 
 }
@@ -359,12 +368,18 @@ header .header-content .header-content-inner p {
     .service-box1 {
 
     }
+    .service-box2 {
+
+    }
 }
 
 .service-box1 p {
     margin-bottom: 0;
 }
 
+.service-box2 p {
+    margin-bottom: 0;
+}
 
 .portfolio-box {
     display: block;
