@@ -64,16 +64,12 @@ p{
 
 /* Section 1
  * --------------------------------------- */
-#section0{
-  background-color: #BFDA00;
-}
-#section0 h1{
-  color: #444;
-}
-#section0 p{
-  color: #333;
+.section0{
+  background-color: #A4E77A;
   opacity: 0.4;
+  color: white;
 }
+
 
 
 /* Section 2
