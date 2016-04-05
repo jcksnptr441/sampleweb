@@ -46,7 +46,7 @@ Example of initialization:
 
 ```javascript
 fullpage.initialize('#fullpage', {
-	anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+	anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage' , 'lastPage'],
 	menu: '#menu',
 	css3:false
 });
