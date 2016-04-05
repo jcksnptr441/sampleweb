@@ -75,7 +75,7 @@ p {
 
 section {
 
- padding: 5% 0 5% 0;
+
   text-align: center;
   color: #fff;
   background-color: #b3dd7c;
@@ -276,8 +276,8 @@ header .header-content .header-content-inner p {
 }
 
 .service-box {
-    margin: 50px auto 0;
-    max-width: 400px;
+  /*  margin: 50px auto 0;
+    max-width: 400px;*/
 }
 
 @media(min-width:992px) {
@@ -676,5 +676,5 @@ body {  text-align: center; }
 
 
 .4logo{
-background-image: url(../img/logo.png); 
+background-image: url(../img/logo.png);
 }
