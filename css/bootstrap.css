@@ -26,7 +26,6 @@ nav,
 section,
 summary {
   display: block;
-
 }
 audio,
 canvas,
@@ -1116,7 +1115,6 @@ figure {
 }
 img {
   vertical-align: middle;
-  padding-bottom: 50px;
 }
 .img-responsive,
 .thumbnail > img,
@@ -1189,7 +1187,7 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: white;
+  color: inherit;
 }
 h1 small,
 h2 small,
@@ -1379,10 +1377,7 @@ a.text-danger:focus {
   background-color: #337ab7;
 }
 a.bg-primary:hover,
-a.
-
-
-:focus {
+a.bg-primary:focus {
   background-color: #286090;
 }
 .bg-success {
@@ -1592,21 +1587,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  
 }
-.containerbg {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url(../img/bg-image.png);
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -4295,7 +4276,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 70px;
+  height: 50px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
