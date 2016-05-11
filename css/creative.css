@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #29b6f6;
+    border-color: #f05f40;
     border-width: 3px;
 }
 
@@ -24,14 +24,8 @@ hr.light {
     border-color: #fff;
 }
 
-hr.dark{
-    border-color: #333;
-    max-width: 95%;
-
-}
-
 a {
-    color: #29b6f6;
+    color: #004d92;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -49,21 +43,28 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: black;
 }
 
+.img_space{
+  padding-bottom: 20px;
+}
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 18px;
     line-height: 1.5;
+    color: black;
 }
 
 .bg-primary {
-    background-color: #29b6f6;
+    background-color: #F7F7F7;
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: white;
 }
 
 .text-faded {
@@ -72,11 +73,11 @@ p {
 
 section {
     padding: 100px 0;
-
 }
 
 aside {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .no-padding {
@@ -93,11 +94,10 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-
+    text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    font-size: x-large;
-    color: #29b6f6;
+    color: #f05f40;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -108,19 +108,19 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: large;
+    font-size: 16px;
     font-weight: 700;
     color: #222;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #29b6f6;
+    color: #f05f40;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #29b6f6!important;
+    color: #f05f40!important;
     background-color: transparent;
 }
 
@@ -160,13 +160,13 @@ aside {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: x-large;
-        color: #29b6f6;
+        font-size: 14px;
+        color: #f05f40;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #29b6f6;
+        color: #eb3812;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -176,33 +176,17 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #29b6f6;
+        color: #f05f40;
     }
 }
 
 header {
-
-
-    height: 100%;
-
+    position: relative;
+    width: 100%;
+    min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/bg-02.png);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.bgimage {
-
-
-    height: 100%;
-
-    text-align: center;
-    color: #fff;
-    background-image: url(../img/bg-image2.png);
+    background-image: url(../img/header.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -213,7 +197,8 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 175px 15px;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -265,6 +250,7 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     margin-top: 0;
+    text-align: center;
 }
 
 .service-box {
@@ -289,10 +275,6 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
-#porfolio{
-    background-image: url(../img/bg-image.png);
-}
-
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -302,7 +284,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgb(150, 234, 67);
+    background: rgba(240,95,64,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -351,7 +333,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #ffffff;
+    color: #f05f40;
 }
 
 .no-gutter > [class*=col-] {
@@ -413,9 +395,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #29b6f6;
+    border-color: #f05f40;
     color: #fff;
-    background-color: #29b6f6;
+    background-color: #f05f40;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -456,12 +438,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #29b6f6;
-    background-color: #29b6f6;
+    border-color: #f05f40;
+    background-color: #f05f40;
 }
 
 .btn-primary .badge {
-    color: #29b6f6;
+    color: #f05f40;
     background-color: #fff;
 }
 
@@ -503,37 +485,49 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+.port{
+padding-top: 100px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
 
-.bg{
-  background-image: url(../img/bg-image.png);
-  background-repeat: no-repeat;
+.icon-color{
+  color: #004d92;
+}
+
+.navbar-footer{
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  font-weight:lighter;
+  text-align: right;
+  vertical-align: middle;
   height: 100%;
-  text-align: center;
-  background-size: cover;
-}
-
-#4arms{
-  background-image: url(../img/bg-image.png);
-  background-repeat: no-repeat;
-  height: 100%;
-  text-align: center;
-  background-size: cover;
-}
-
-.bgimg{
-  background-image: url(../img/bg-image.png);
-  background-repeat: no-repeat;
-  height: 100%
-  text-align: center;
-  background-size: cover;
-}
-
-.mybgimg{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
-background: #d2ff52; /* Old browsers */
-background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
-
+  padding: 1% 75px 1% 0;
+  color: #004d92;
 
 }
+
+.logoimg{
+  padding-top: 5px;
+  width: 90%;
+  height: 90%;
+}
+  @media only screen and (max-width: 600px) {
+      .logoimg {
+        padding-top: 8px;
+        padding-left: 8px;
+        width: 37%;
+        height: 37%
+      }
+      section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .port{
+        padding-top: 30px;
+      }
+      aside{
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
